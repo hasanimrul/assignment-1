@@ -15,7 +15,7 @@ body{
     padding-top: 200px;
 }
 
-h1{
+.banner-h1{
     color: white;
     font-weight: bolder;
     font-size: 70px;
@@ -23,7 +23,7 @@ h1{
     margin-bottom: 0;
 }
 
-p{
+.banner-paragraph{
     color: white;
     font-size: 30px;
     margin-bottom: 100px;
@@ -33,7 +33,44 @@ p{
     text-decoration: none;
     color: white;
     background-color: tomato;
-    padding: 20px 40px;
+    padding: 15px 20px;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.donate-today{
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+    font-weight: 700 !important;
+}
+.donate-amount{
+    display: flex;
+    padding-left: 250px;
+}
+.taka{
+    
+   
+    border-radius: 5px;
+    background-color: aliceblue;
+    font-size: 30px;
+    padding: 30px 15px;
+    margin-left: 30px;
+    margin-right: 10px; 
+    font-weight: 700;   
+    margin-top: 50px;
+}
+.red-border{
+    border: 3px solid tomato;
+    color: tomato;
+    background-color: rgb(247, 228, 225);
+}
+input[type=number] {
+    width: 50%;
+    margin: 100px 0px 50px 0px;
+    border: none;
+    border-bottom: 1px solid rgb(201, 198, 198);
+    text-align: center;
+    font-size: 17px;
 }
