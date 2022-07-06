@@ -1,6 +1,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
     margin:0;
+    padding: 0;
 }
 
 .banner{
@@ -36,6 +37,10 @@ body{
     padding: 15px 20px;
     border-radius: 10px;
     font-size: 18px;
+    font-weight: 700;
+}
+h1{
+    margin-bottom: 0px;
     font-weight: 700;
 }
 .donate-today{
@@ -101,4 +106,39 @@ h2{
 }
 #bg-color2{
     background-color: bisque;
+}
+.my-update{
+    text-align: center;
+    margin-top: 100px;
+}
+#submit-button{
+    margin-left:-5px;
+    width: 10%;
+    height: 42px;
+    background-color: tomato;
+    border: none;
+}
+#input-field{
+    width: 30%;
+    height: 40px;
+    background-color: rgb(211, 206, 206);
+    border: none;
+}
+.email-field{
+    background-color: rgb(250, 219, 208);
+    margin: 0px 250px 100px 250px;
+    padding:60px 0px 60px 0px;
+}
+
+footer{
+        background-color: rgb(17, 17, 17);
+        text-align: center;
+        padding-bottom: 50px;
+        padding-top: 20px;
+        color: aliceblue;
+        
+}
+h3{
+    color: tomato;
+    font-family:cursive;
 }
